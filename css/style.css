@@ -1,0 +1,96 @@
+
+/*font family*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/*css variable*/
+:root{
+	--black:#000000;
+	--orange:#FD511A;
+	--green:#21B573;
+	--purple:#282531;
+
+
+	--pop:"Poppins", sans-serif;
+	--rob: "Roboto", sans-serif;
+
+}
+/*common css start*/
+body{
+	font-family: var(--pop);
+	font-size: 16px;
+	font-weight: 400;
+	color: var(--black);
+}
+/*common css end*/
+/*header start*/
+header{
+	background-color:#e5fce5;
+	padding: 15px;
+}
+.c_nav{}
+.logo{}
+.menu{}
+.menu ul li a{
+	color: var(--black)!important;
+	padding: 0 20px !important;
+}
+.menu ul li a:hover{
+		color: var(--orange) !important;
+}
+.btn_sign{
+	padding: 12px 28px;
+}
+.btn_cm{
+	background-color:var(--green);
+	border-radius: 35px;
+	font-family: var(--rob);
+	color: white;
+	
+}
+.btn_cm:hover{
+	background-color: var(--orange);
+	color: white;
+}
+.btn_cm:active{
+	background-color: var(--orange);
+	color: white;
+}
+
+/*header end*/
+/*banner start*/
+.banner{
+	background-color: #e5fce5;
+}
+.b_text{}
+.b_p1{
+	color: var(--orange);
+}
+.b_h1{
+	margin: 10px 122px 20px 0px;
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 70px;
+}
+.b_h1 span{
+	color:var(--green);
+}
+.b_p2{
+	font-weight: 700;
+	line-height: 36px;
+ }
+ .btn_get{
+ 	margin: 15px 0px 0px;
+ 	padding: 12px 36px;
+ }
+ .b_img{
+ 	position: relative;
+ 	animation-name: test;
+ 	animation-duration: 3s;
+ }
+ @keyframes test{
+ 	80%{top:0px; left:5px}
+ 	
+
+ }
+/*banner end*/
