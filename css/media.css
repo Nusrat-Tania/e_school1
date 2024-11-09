@@ -28,14 +28,14 @@
          line-height: 30px;
       }
    .b_img{
-
          margin:0;
          position: relative;
          animation-name: test;
-         animation-duration: 3s;
+         animation-duration: 1s;
+         animation-iteration-count: infinite;
       }
     @keyframes test{
-         80%{top:0px; left:5px}
+         80%{top:10px; bottom:10px}
       }
  }
 
@@ -73,10 +73,11 @@
          margin:0 20px ;
          position: relative;
          animation-name: test;
-         animation-duration: 3s;
+         animation-duration: 1s;
+         animation-iteration-count: infinite;
        }
    @keyframes test{
-         80%{top:0px; left:2px}
+         80%{top:20px; bottom:20px}
        }
   }
   
@@ -108,10 +109,11 @@
          margin:0 50px ;
          position: relative;
          animation-name: test;
-         animation-duration: 3s;
+         animation-duration: 1s;
+         animation-iteration-count: infinite;
        }
        @keyframes test{
-         80%{top:0px; left:2px}
+         80%{top:30px; bottom:30px}
        }
     }
   
@@ -131,10 +133,11 @@
    .b_img{
       position: relative;
       animation-name: test;
-      animation-duration: 3s;
+      animation-duration: 1s;
+      animation-iteration-count: infinite;
     }
     @keyframes test{
-      80%{top:0px; left:2px}
+      80%{top:30px; bottom:30px}
     }
    
      }
