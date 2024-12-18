@@ -134,9 +134,17 @@ header{
 	font-weight: 700;
 	line-height: 54px;
 }
-
-
-
 /*courses end*/
+/*testimony start*/
+.testimony{}
+.t_item{
+	margin-top: 60px;
+}
+.t_img{}
+.t_img img{}
+.t_text{}
+.t_text p{}
+
+/*testimony end*/
 
 
