@@ -5,146 +5,175 @@
 
 /*css variable*/
 :root{
-	--black:#000000;
-	--orange:#FD511A;
-	--green:#e5fce5;
-	--purple:#282531;
+  --black:#000000;
+  --orange:#FD511A;
+  --green:#e5fce5;
+  --purple:#282531;
 
 
-	--pop:"Poppins", sans-serif;
-	--rob: "Roboto", sans-serif;
+  --pop:"Poppins", sans-serif;
+  --rob: "Roboto", sans-serif;
 
 }
 /*common css start*/
 body{
-	font-family: var(--pop);
-	font-size: 16px;
-	font-weight: 400;
-	color: var(--black);
+  font-family: var(--pop);
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--black);
 }
 /*common css end*/
 /*header start*/
 header{
-	background-color:var(--green);
-	padding: 15px;
+  background-color:var(--green);
+  padding: 15px;
 }
 .c_nav{}
 .logo{}
 .menu{}
 .menu ul li a{
-	color: var(--black)!important;
-	padding: 0 20px !important;
+  color: var(--black)!important;
+  padding: 0 20px !important;
 }
 .menu ul li a:hover{
-		color: var(--orange) !important;
+    color: var(--orange) !important;
 }
 .btn_sign{
-	padding: 12px 28px;
+  padding: 12px 28px;
 }
 .btn_cm{
-	background-color:#21B573;
-	border-radius: 35px;
-	font-family: var(--rob);
-	color: white;
-	
+  background-color:#21B573;
+  border-radius: 35px;
+  font-family: var(--rob);
+  color: white;
+  
 }
 .btn_cm:hover{
-	background-color: var(--orange);
-	color: white;
+  background-color: var(--orange);
+  color: white;
 }
 .btn_cm:active{
-	background-color: var(--orange);
-	color: white;
+  background-color: var(--orange);
+  color: white;
 }
 
 /*header end*/
 /*banner start*/
 .banner{
-	background-color: var(--green);
+  background-color: var(--green);
 }
 .b_text{}
 .b_p1{
-	color: var(--orange);
+  color: var(--orange);
 }
 .b_h1{
-	margin: 10px 122px 20px 0px;
-	font-size: 48px;
-	font-weight: 700;
-	line-height: 70px;
+  margin: 10px 122px 20px 0px;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 70px;
 }
 .b_h1 span{
-	color:#21B573;
+  color:#21B573;
 }
 .b_p2{
-	font-weight: 700;
-	line-height: 36px;
+  font-weight: 700;
+  line-height: 36px;
  }
  .btn_get{
- 	margin: 15px 0px 0px;
- 	padding: 12px 36px;
+  margin: 15px 0px 0px;
+  padding: 12px 36px;
  }
  .b_img{
- 	position: relative;
- 	animation-name: test;
- 	animation-duration:8s;
- 	animation-iteration-count: infinite;
+  position: relative;
+  animation-name: test;
+  animation-duration:8s;
+  animation-iteration-count: infinite;
  }
  @keyframes test{
- 	0%{top:10px; bottom:10px}
- 	25%{top:20px; bottom:20px}
- 	50%{top:30px; bottom:30px}
- 	65%{top:10px; bottom:10px}
- 	100%{top:20px; bottom:20px}
- 	
+  0%{top:10px; bottom:10px}
+  25%{top:20px; bottom:20px}
+  50%{top:30px; bottom:30px}
+  65%{top:10px; bottom:10px}
+  100%{top:20px; bottom:20px}
+  
 
  }
 /*banner end*/
 /*feature start*/
 .feature{}
 .c_p{
-	padding-bottom: 100px;
+  padding-bottom: 100px;
 }
 .sf_item{
-	margin: 45px 0 0;
-	padding: 55px 0 50px;
+  margin: 45px 0 0;
+  padding: 55px 0 50px;
     background-color: var(--green);
     border-radius: 10px;
     transition: .33s linear;
 }
 .sf_img{
-	width: 66px;
+  width: 66px;
     height: 85px;
 }
 .sf_h2{
-	margin: 20px 0 0;
-	font-size: 24px;
-	font-weight: 500;
-	line-height: 36px;
+  margin: 20px 0 0;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
 }
 .sf_p{}
 .sf_item:hover{
-	background-color: white;
-	box-shadow: 0px 20px 40px 0px #0000001A;
+  background-color: white;
+  box-shadow: 0px 20px 40px 0px #0000001A;
 }
 /*feature end*/
 /*courses start*/
 .course{}
 .c_h1{
-	font-size: 36px;
-	font-weight: 700;
-	line-height: 54px;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 54px;
 }
+.co_item{
+  margin: 60px 0 0;
+  padding: 25px 20px 30px;
+  border-radius: 18px;
+  box-shadow: 0px 10px 40px 0px #0000001A;
+}
+.co_h2{
+  margin: 20px 0 5px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  color: var(--black);
+
+}
+.co_p{}
+.co_link{
+  margin: 20px 0 30px;
+  padding: 8px 28px;
+}
+.co_footer{}
+.co_left{}
+.co_right{}
+.co_left ul li img, .co_right ul li img{}
+.co_left ul li span, .co_right ul li span{
+  font-weight: 500;
+}
+.nli{}
 /*courses end*/
 /*testimony start*/
 .testimony{}
 .t_item{
-	margin-top: 60px;
+  margin-top: 60px;
 }
 .t_img{}
 .t_img img{}
-.t_text{}
-.t_text p{}
+.t_text{
+    line-height: 30px;
+}
+.t_text p {
+}
 
 /*testimony end*/
-
 
