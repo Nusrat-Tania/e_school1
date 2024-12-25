@@ -176,4 +176,55 @@ header{
 }
 
 /*testimony end*/
+/*footer-top start*/
+.footer_top{
+  padding: 55px 0 55px;
+  background-color: #282531;
+}
+.f_details{
+  padding-right: 120px;
+}
+.f_details p{
+  color: white;
+  line-height: 30px;
+
+}
+.f_links{}
+.f_links h2{
+  margin-bottom: 8px;
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+  line-height: 30px;
+  transition: .33s linear;
+}
+.f_links ul li a{
+  margin-bottom: 8px;
+  display: block;
+  color: white;
+  text-decoration: none;
+  transition: .33s linear;
+}
+.f_links h2:hover{
+  color: var(--red);
+}
+.f_links ul li  :hover{
+  color: var(--red);
+}
+/*footer-top end*/
+/*footer start*/
+footer{
+  padding: 20px 0 30px;
+  background-color: #282531;
+}
+footer p{
+  color: white;
+  line-height: 30px;
+}
+footer p a{
+  color: white;
+  text-decoration: none;
+
+}
+/*footer end*/
 
